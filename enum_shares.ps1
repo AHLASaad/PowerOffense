@@ -1,8 +1,8 @@
-#param($ip_network, $ip_range)
+param($ip_network, $ip_range)
 
 
-$ip_network = "192.168.1."
-$ip_range = 12,13
+#$ip_network = "192.168.1."
+#$ip_range = 12,13
 
 $ping = New-Object System.Net.Networkinformation.ping
 
